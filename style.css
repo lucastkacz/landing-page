@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0.5% 10% 0.5% 10%;
+    background: #1F2937;
+    font-family: 'Roboto', serif;
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    background: #1F2937;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+  
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+  
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.links {
+    gap: 200px;
+}
