@@ -2,11 +2,10 @@ body {
     margin: 0;
     padding: 0.5% 10% 0.5% 10%;
     background: #1F2937;
-    font-family: 'Roboto', serif;
+    font-family: serif;
 }
 
 a {
-    /* this removes the line under our links */
     text-decoration: none;
     color: white;
 }
@@ -21,12 +20,15 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    margin: 0;
+    padding: 0;
 }
   
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    margin: 0;
+    padding: 0;
 }
   
 .left, .right {
@@ -36,5 +38,5 @@ ul {
 }
 
 .links {
-    gap: 200px;
+    gap: 50px;
 }
