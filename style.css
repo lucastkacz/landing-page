@@ -86,5 +86,22 @@ button{
 .section-2-content
 .text {
     max-width: 250px;
+    font-size: 1vw;
 }
-  
+
+img {
+    border: 5px solid #000000;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    font-size: 2vw;
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
