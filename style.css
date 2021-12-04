@@ -1,32 +1,37 @@
 body {
     margin: 0;
     padding: 0.5% 10% 0.5% 10%;
-    background: #1F2937;
+    background: #f7f6f5;
     font-family: serif;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
+    font-size: 1.5vw;
 }
 
 ul {
     list-style-type: none;
 }
 
+.gif {
+    width: 75%;
+    height: auto;
+}
+
 .header {
-    background: #1F2937;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgb(63, 62, 62);
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
   
 .logo {
-    color: #F9FAF8;
-    font-size: 24px;
+    color: #000000;
+    font-size: 2vw;
     margin: 0;
     padding: 0;
 }
@@ -34,9 +39,52 @@ ul {
 .left, .right {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 24px;
 }
 
 .links {
     gap: 50px;
 }
+
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    border-bottom: 1px solid rgb(63, 62, 62);
+}
+
+.section-1-content{
+    text-align: center;
+    font-size: 1.25vw;
+}
+
+button{
+    font-size: 0.75vw;
+}
+
+.section-2{
+    text-align: center;
+    padding: 5%;
+    border-bottom: 1px solid rgb(63, 62, 62);
+}
+
+.title {
+    font-size: 2vw;
+    font-weight: 900;
+    margin-bottom: 1vw;
+}
+  
+.section-2-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4vw;
+}
+
+.section-2-content
+.text {
+    max-width: 250px;
+}
+  
